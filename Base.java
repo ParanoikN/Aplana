@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Nikita Tretyakov on 24.06.2017.
  * @author Nikita Tretyakov
+ * Калькулятор из первой лекции
  */
 public class Base {
     public static void main(String[] args) {
