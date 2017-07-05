@@ -16,14 +16,14 @@ public class MassivSlovLekciya3 {
             Slova[i] = scanner.next();
             i++;
         }
-
-        for (){
-
+       for(int i = 0; i < Slova.length; i++){
+        int d = 0;
+        String s = null;
+        if (String Slova[i].length > d) ;
+        {
+            d = Slova[i].length;
+            s = new String;
         }
-
-        for (String element : Slova)
-            System.out.print(element + " ");
-
-
+        System.out.print(s);
     }
 }
