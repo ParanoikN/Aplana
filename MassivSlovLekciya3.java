@@ -16,13 +16,15 @@ public class MassivSlovLekciya3 {
             Slova[i] = scanner.next();
             i++;
         }
-       for(int i = 0; i < Slova.length; i++){
-        int d = 0;
-        String s = null;
-        if (String Slova[i].length > d) ;
-        {
-            d = Slova[i].length;
-            s = new String;
+        int etalon = 0;
+        String s = new String();
+        for (int y = 0; y < Slova.length; y++) {
+            int d = Slova[y].length();
+            if (d > etalon) ;
+            {
+                etalon = d;
+                s = Slova[y];
+            }
         }
         System.out.print(s);
     }

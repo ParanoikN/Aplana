@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 /**
- * Created by Nikita Tretyakov on 24.06.2017.
- * @author Nikita Tretyakov
- * Калькулятор из Второй лекции
+ * Created by Nikita Tretyakov on 05.07.2017.
  */
+
 public class Base {
-    public static void main(String[] args) {
-        System.out.println("Калькулятор сложение");
-        System.out.println("Введите первое число");
-        Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        System.out.println("Введите второе число");
-        double b = scanner.nextDouble();
-        //double c = a + b;
-        System.out.print("Сумма:");
-        System.out.printf("%.4f", a+b);
-        scanner.close();
+    public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Выберете вводом: 1 - калькулятор, 2 - массив");
+        int n = scan.nextInt();
+        switch (n) {
+            case 1:
+               Lekciya3.main(String[])
+                break;
+            case 2:
+                MassivSlovLekciya3.main(String[])
+                break;
+        }
     }
-}
+    }
