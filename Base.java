@@ -6,15 +6,17 @@ import java.util.Scanner;
 
 public class Base {
     public static void main(String args[]) {
+        Lekciya3 myClass1 = new Lekciya3();
+        MassivSlovLekciya3 myClass2 = new  MassivSlovLekciya3();
         Scanner scan = new Scanner(System.in);
         System.out.println("Выберете вводом: 1 - калькулятор, 2 - массив");
         int n = scan.nextInt();
         switch (n) {
             case 1:
-               Lekciya3.main(String[])
+                myClass1.main();
                 break;
             case 2:
-                MassivSlovLekciya3.main(String[])
+                myClass2.main();
                 break;
         }
     }
