@@ -11,13 +11,13 @@ public class Base {
         Scanner scan = new Scanner(System.in);
         System.out.println("Выберете вводом: 1 - калькулятор, 2 - массив");
         int n = scan.nextInt();
-        switch (n) {
+       /* switch (n) {
             case 1:
-                myClass1.main();
+                myClass1.main(); // Ругается на эти строчки не могу понять почему
                 break;
             case 2:
-                myClass2.main();
+                myClass2.main();  // Ругается на эти строчки не могу понять почему
                 break;
+                */
         }
-    }
     }
