@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Задача из лекции 3 про массивы
  */
 public class MassivSlovLekciya3 {
-    public static void m2(String args[]) {
+    public static void m2() {
         System.out.print("Задайте размер массива: ");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
