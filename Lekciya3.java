@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Калькулятор из лекции 3
  */
 public class Lekciya3 {
-    public static void m1(String args[]) {
+    public static void m1(String[] args) {
         System.out.println("Калькулятор полная версия");
         System.out.println("Введите первое число");
         Scanner scanner = new Scanner(System.in);
