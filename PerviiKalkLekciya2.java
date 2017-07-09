@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Калькулятор из Второй лекции
  */
 public class PerviiKalkLekciya2 {
-    public static void main(String[] args) {
+    public static void m3(String[] args) {
         System.out.println("Калькулятор сложение");
         System.out.println("Введите первое число");
         Scanner scanner = new Scanner(System.in);
