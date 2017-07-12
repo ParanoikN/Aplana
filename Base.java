@@ -11,13 +11,13 @@ public class Base {
         int n = scan.nextInt();
         switch (n) {
             case 1:
-                Lekciya3.m1();
+                Lekciya3.m1(); //надо переименовать метод. вообще не понятно, что он делает
                 break;
             case 2:
-                MassivSlovLekciya3.m2();
+                MassivSlovLekciya3.m2();//аналогично 
                 break;
             case 3:
-                M20L4.massiv();
+                M20L4.massiv();//аналогично. еще и по названию класса тоже не понятно, что там должно происходить. 
                 break;
         }
     }
